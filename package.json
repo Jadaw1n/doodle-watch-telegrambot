@@ -1,0 +1,15 @@
+{
+  "name": "doodlewatchbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {},
+  "author": "Piero Steinger <piero+doodlewatchbot@steinger.eu>",
+  "license": "MIT",
+  "dependencies": {
+    "jsonfile": "^2.3.1",
+    "lodash": "^4.13.1",
+    "node-telegram-bot-api": "^0.23.3",
+    "request": "^2.72.0"
+  }
+}

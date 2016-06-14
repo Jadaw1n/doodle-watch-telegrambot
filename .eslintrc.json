@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": false,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "impliedStrict": true
+    }
+  },
+  "rules": {
+    "semi": 2,
+    "no-eval": 2,
+    "arrow-spacing": 1,
+    "no-var": 1,
+    "prefer-const": 1,
+    "no-const-assign": 2,
+    "eqeqeq": 1
+  }
+}
