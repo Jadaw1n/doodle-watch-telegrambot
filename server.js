@@ -129,7 +129,7 @@ setInterval(() => {
 
       if (removedVotes.length + addedVotes.length + changedVotes.length > 0) {
         element.notifyChats.forEach(chatId => {
-          bot.sendMessage(chatId, message, { parse_mode: "Markdown" });
+          bot.sendMessage(chatId, message, { parse_mode: "Markdown", disable_web_page_preview: true });
         });
       } else {
         console.log("no change in poll: " + url);
